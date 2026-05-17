@@ -1,0 +1,4 @@
+﻿  Jun2-2022b.cpp
+D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Jun2-2022b\Jun2-2022b\Jun2-2022b.cpp(25,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Jun2-2022b\Jun2-2022b\Jun2-2022b.cpp(50,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Jun2-2022b.vcxproj -> D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Jun2-2022b\Debug\Jun2-2022b.exe
