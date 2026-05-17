@@ -1,0 +1,5 @@
+﻿  Oktobar2-2025b.cpp
+D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Oktobar2-2025b\Oktobar2-2025b\Oktobar2-2025b.cpp(18,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Oktobar2-2025b\Oktobar2-2025b\Oktobar2-2025b.cpp(10,16): warning C4101: 'status': unreferenced local variable
+D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Oktobar2-2025b\Oktobar2-2025b\Oktobar2-2025b.cpp(9,18): warning C4101: 'triangleMatrix': unreferenced local variable
+  Oktobar2-2025b.vcxproj -> D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Oktobar2-2025b\Debug\Oktobar2-2025b.exe
