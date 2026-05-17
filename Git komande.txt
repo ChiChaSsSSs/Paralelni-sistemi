@@ -1,0 +1,16 @@
+git commit - Save trenutne verzije projekta
+git commit --amend - Pravi malu promenu na poslednje napravljeni commit
+git branch <ime_grane> - Kreiranje nove grane projekta koja moze da se razvija potpuno nezavisno u odnosu na ostale grane
+git checkout <ime_grane> - Prebacivanje na drugu granu
+git merge <ime_grane> - Sjedinjuje navedenu granu i granu na kojoj se trenutnu nalazimo stvarajuci novi commit
+git rebase <ime_grane> - Uklanja paralelne commit-ove tako sto na navedenu granu postavlja granu na kojoj smo trenutno
+git rebase <ime_grane> <ime_grane> - Uklanja paralelne commit-ove tako sto na prvu navedenu granu postavlja drugu navedenu granu
+git rebase -i <putanja> - Interaktivni rebase kojim mozemo da vidimo koji sve commit-ovi postoje na navedenoj putanji i odaberemo samo one koje zelimo da dodamo na kraj putanje i u redosledu u kom zelimo
+git checkout [<ime_grane> | HEAD]^ - Postavlja HEAD na prvog roditelja commit-a na kojem se nalazi navedena grana ili koji je trenutno HEAD
+git checkout [<ime_grane> | HEAD]~<broj_roditelja> - Pomera HEAD na gore za onoliko roditelja koliko je navedeno u odnosu na navedenu granu ili trenutni head
+git branch -f <ime_grane> [^ | ~] - Nasilno pomera postojecu granu na commit koji je naveden izrazom pomocu ^ ili ~
+git reset <putanja> - Pomera trenutnu granu na prethodni commit zahvacen izrazom, cime se postize efekat kao da se commit-ovi na tom putu nisu ni desili
+git revert <ime_grane> - Pravi novi commit tako sto uklanja novine iz starog commit-a i dodaje nove stvari
+git cherry-pick <lista-commitova> - Dodaje svaki pojedinacni commit iz liste kao novi commit u odnosu na trenutni HEAD
+git tag <opis> <putanja> - Dodavanje taga commit-u na navedenoj putanji
+git describe <ime_grane> - Ispisuje u konzoli najblizi commit kojem je dodeljen tag zajedno sa broj commit-ova do tog commit-a i hash vrednoscu tog commit-a
