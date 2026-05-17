@@ -1,0 +1,12 @@
+﻿Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Type_vector referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Type_create_resized referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Type_commit referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Bcast referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Gather referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Scatter referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Comm_size referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Comm_rank referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Init referenced in function main
+Decembar2025.obj : error LNK2019: unresolved external symbol MPI_Finalize referenced in function main
+C:\Program Files (x86)\Microsoft SDKs\MPI\Lib\x86\msmpi.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\Fakultet\Šesti semestar\Paralelni sistemi\Zadaci\MPI Blanketi\Decembar2025\x64\Debug\Decembar2025.exe : fatal error LNK1120: 10 unresolved externals
